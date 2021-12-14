@@ -1,0 +1,202 @@
+/* Body - roboto font, fill out screen, arrange containers in column */
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+
+}
+
+/* First section */
+.first {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 100px 100px 100px;
+}
+
+.top.photo {
+    height: 100px;
+    width: 100px;
+}
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* list as row */
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+/*text portion and picture of first section */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/*title of main */
+.one {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button.top {
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: white;
+    align-self: flex-start;
+  }
+
+/* main photo */
+.main .photo {
+    height: 350px;
+    width: 500px;
+}
+
+
+/*Second Block */
+
+.sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    gap: 20px;
+}
+.title.two{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.cars {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+
+.subtext {
+    text-align: center;
+}
+
+/*Third Block */
+.third {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* fourth block */
+.action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    background-color: #3882f6;
+    margin: 50px 200px 50px 200px;
+
+}
+
+.writing {
+    display: flex;
+    flex-direction: column;
+    color:white;
+    gap: 4px;
+}
+
+button.bot {
+    background: #3882f6;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    align-self: flex-start;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.sign {
+    font-size: 12px;
+}
+
+/*Footer */
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color:white;
+    padding: 30px;
+}
+
+/* General image dimensions */
+.photo {
+    height: 208px;
+    width: 208px;
+    border-radius: 25px;
+}
+
+.car .photo {
+    border: 5px solid #3882f6;
+}
+
+/* button */
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
