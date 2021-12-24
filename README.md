@@ -8,3 +8,5 @@ index.html
 styles.css
 
 and the image of the webpage along with the colors and stuff
+
+[LIVE PREVIEW](https://chobot123.github.io/Project-Landing-Page/)
